@@ -1,0 +1,23 @@
+{
+  "name": "PL_ConversorDeTemperaturas",
+  "version": "0.0.1",
+  "description": "Conversion de temperaturas entre Celsius y Fahrenheit",
+  "main": "temperature.js",
+  "scripts": {
+    "test": ".\\test\\index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100764666/PL_practica1.git"
+  },
+  "keywords": [
+    "regexp",
+    "temperature"
+  ],
+  "author": "Sabato Ceruso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100764666/PL_practica1/issues"
+  },
+  "homepage": "https://github.com/alu0100764666/PL_practica1"
+}
