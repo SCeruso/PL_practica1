@@ -8,7 +8,8 @@ input       {
               font-size:large;       }
 body
 {
- background-color:#b0c4de;  /* blue */
+ /*background-color:#b0c4de;  /* blue */
+ background:#efefef url(img/gray_jean.png);
  font-size:large;
  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
@@ -16,7 +17,7 @@ body
 h1 {
     font-weight: normal;
     font-family: "Brush Script MT", cursive;
-    background: #3C5681;
+    background: green;
     padding: 5px 15px;
     color: white;
     display:inline-block;

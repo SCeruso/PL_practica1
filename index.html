@@ -1,24 +1,40 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <!-- META -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>JavaScript Temperature Converter</title>
-    <link href=node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="global.css" rel="stylesheet" type="text/css">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
 
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="global.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/kickstart.js"></script>
     <script type="text/javascript" src="temperature.js"></script>
 </head>
 <body>
     <h1>Temperature Converter</h1>
-    <table>
-        <tr>
-            <th>Enter  Temperature (examples: 32F, 45C, -2.5f):</th>
-            <td><input id="original" autofocus onchange="calculate();" placeholder="32F" size="50"></td>
-        </tr>
-        <tr>
-            <th>Converted Temperature:</th>
-            <td><span class="output" id="converted"></span></td>
-        </tr>
-    </table>
+    <div class="col_12">
+       
+        <h5>
+            <label for="original">Enter temperature (examples 32f, 45c, -2.5f)</label>
+        </h5>
+        <h5> <input name="original" id="original" autofocus onchange="calculate();" placeholder="32F" size="50"> </h5>
+    </div>
+    <div class="col_12">
+        <h5><label for="output"> Converted Temperature:</label> </h5>
+        <span class="output" id="converted"></span>
+</div>
+
+     <hr />
+    <div class="center">
+        <a class="button orange" href="http://alu0100764666.github.io/PL_practica1/tests/index.html"> <p>Tests </p></a>
+    </div>
 </body>
 </html>
