@@ -4,7 +4,7 @@
   "description": "Conversion de temperaturas entre Celsius y Fahrenheit",
   "main": "temperature.js",
   "scripts": {
-    "test": "firefox tests/index.html"
+    "test": "firefox tests/index.html",
     "karma": "node_modules/karma/bin/karma start"
   },
   "repository": {
@@ -33,9 +33,11 @@
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.7",
     "karma-firefox-launcher": "^0.1.4",
-    "karma-mocha": "^0.1.10",
+    "karma-mocha": "~0.1.10",
     "karma-phantomjs-launcher": "^0.1.4",
     "mocha": "~2.1.0",
-    "node-static": "~0.7.6"
+    "node-static": "~0.7.6",
+    "karma-chai": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0"
   }
 }
