@@ -1,6 +1,6 @@
 var assert = chai.assert;
-var converted;
-var original;
+//var converted;
+//var original;
 
 suite('temperature', function() {
 	if (typeof __html__ !== 'undefined') {
