@@ -26,6 +26,14 @@ suite('temperature', function() {
 		assert.deepEqual(converted.innerHTML, "-49.0F");
 	});
 	
+	
+	test('50.0e+5C = 9000032.0F', function() {
+		original.value = "50.0e+5C";
+		calculate();
+		assert.deepEqual(converted.innerHTML, "9000032.0F");
+	});
+	
+	
 	test('4d = error', function() {
 		original.value = "4d";
 		calculate();
