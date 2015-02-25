@@ -4,8 +4,9 @@
   "description": "Conversion de temperaturas entre Celsius y Fahrenheit",
   "main": "temperature.js",
   "scripts": {
-    "test": "firefox tests/index.html",
-    "karma": "node_modules/karma/bin/karma start"
+    "mochatest": "firefox tests/index.html",
+    "test": "node_modules/karma/bin/karma start"
+    
   },
   "repository": {
     "type": "git",
