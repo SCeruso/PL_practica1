@@ -5,7 +5,7 @@
   "main": "temperature.js",
   "scripts": {
     "mochatest": "firefox tests/index.html",
-    "test": "node_modules/karma/bin/karma start"
+    "test": "node_modules/karma/bin/karma start --single-run"
     
   },
   "repository": {
